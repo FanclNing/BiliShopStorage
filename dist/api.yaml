@@ -1,0 +1,6 @@
+api :
+  my_info: 'https://api.live.bilibili.com/User/getUserInfo'
+  Storage_Check : 'https://mall.bilibili.com/mall-c/cart/na/orderinfo'
+  GoodInfo: 'https://mall.bilibili.com/mall-c-search/items/info'
+  Get_Qrcode: 'https://passport.bilibili.com/x/passport-login/web/qrcode/generate'
+  Check_QrLogin: 'https://passport.bilibili.com/x/passport-login/web/qrcode/poll'
