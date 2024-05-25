@@ -1,4 +1,4 @@
-﻿# BiliShopStorage
+# BiliShopStorage
 
 ### 说明
 程序旨在完成哔哩哔哩会员购库存爬取
@@ -28,4 +28,4 @@
       .forEach(it => copy(it) || console.log(it))
     ```
 
-- 只需含有 `DedeUserID=...;SESSDATA=...;bili_jct=...;buvid3=...`   即可
+- 只需含有 `DedeUserID=...;SESSDATA=...;bili_jct=...;buvid3=...` 即可

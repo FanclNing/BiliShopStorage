@@ -43,7 +43,6 @@ def GetQrCode():
             img=imgmaker(qrurl)
             ShowImage(img)
             info = CheckQrCode()
-            CloseImage(img)
             return info
         else:
             print('获取二维码失败,尝试再次获取!')
@@ -54,8 +53,6 @@ def GetQrCode():
         sys.exit()
 
 
-def CloseImage(img):
-    pyplot.close(img)
 def ShowImage(img):
     pyplot.imshow(img)
     pyplot.axis('off')
