@@ -1,0 +1,13 @@
+header:
+  Cookie: "buvid3=DAA131A8-E9F0-7E5C-F730-E927FD4B33CB87417infoc; b_nut=1714547287; _uuid=2A921231-08BB-0B50-8CB7-3F19C10C1EAF96315infoc; DedeUserID=355850446; DedeUserID__ckMd5=d353ca2a571988a5; enable_web_push=DISABLE; header_theme_version=CLOSE; CURRENT_FNVAL=16; rpdid=|(JYYRYkl)ku0J'u~uRllJRY|; LIVE_BUVID=AUTO4517145540454055; buvid4=46F15513-9A06-5DCB-33E2-735960B4F65366476-022093017-WT67as8gZw%2FqX9O8XehU5Q%3D%3D; fingerprint=8902a5d1f6af297a79ba90fc2b5e42fa; buvid_fp_plain=undefined; CURRENT_QUALITY=16; PVID=1; buvid_fp=c9cad3d39a5d6ec0c5df3c08e1fe1343; hit-dyn-v2=1; bili_ticket=eyJhbGciOiJIUzI1NiIsImtpZCI6InMwMyIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MTU5OTYwNTYsImlhdCI6MTcxNTczNjc5NiwicGx0IjotMX0.MwYDnkj5w9RDuW0W2JFK0WkpGQOQlgHXUdXH4mC8R2k; bili_ticket_expires=1715995996; b_lsid=E610DDD24_18F86FE5843; bp_t_offset_355850446=932512643759996950; SESSDATA=8653ad94%2C1731508767%2C820c9%2A51CjBMDt8rqg-2pXiqqh0IW-SPk_XbgFcDSEr89_VpRQCHQImO7G-HkypqEXqikn3wfcMSVmRidG16TzBzTnNneDE0bVg3U1Z1YnFJbk1IT2NkM0ZQajBvYWZ4VzNTSFF6Q2dLMjYzb2J6VURxRUZQQlZuNW43ck5SNG1SRWJlTm1GOUJITFF6clNnIIEC; bili_jct=8f6c884bbd4f017421f22962a2f6efff; sid=pidbdxpq; home_feed_column=4; browser_resolution=1060-2226"
+  User-Agent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0'
+  Referer: 'www.bilibili.com'
+  path: '/mall-c/cart/na/orderinfo?platform=h5&isDegrate=false&mVersion=52&v=1714745329007'
+  origin: 'https://mall.bilibili.com'
+  Sec-Ch-Ua: '"Chromium";v="124", "Microsoft Edge";v="124", "Not-A.Brand";v="99"'
+  Content-Type: 'application/json'
+  Accept: '*/*'
+payload:
+  platfrom: 'h5'
+  isDegrate: 'false'
+  mVersion: '52'
