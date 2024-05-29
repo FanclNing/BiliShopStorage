@@ -20,6 +20,7 @@ with open('headers2.yaml', 'r')as f:
 
 def LoadCk():
     info=GetQrCode()
+    if not info ==None
     print('登陆成功！')
     return info
 
@@ -45,6 +46,7 @@ def GetQrCode():
             info = CheckQrCode()
             return info
         else:
+            return None
             print('获取二维码失败,尝试再次获取!')
             GetQrCode()
     except Exception as e:

@@ -119,6 +119,7 @@ class Inquire:
         if a=="f":
             return None
         else:
+            n+=1
             self.init()
             self.SetUrl(a)
 
@@ -159,12 +160,14 @@ class Inquire:
         if not os.path.exists('history'):
             os.makedirs('history')
         with open(f'history\\{self.time.tm_year}-{self.time.tm_mon}-{self.time.tm_mday}查询历史.txt', 'a') as f:
-            f.write('\n')
-            f.write(f"\n{self.time.tm_hour}：{self.time.tm_min}查询状态\n")
+
+            f.write(f"{self.time.tm_hour}：{self.time.tm_min}查询状态\n")
+            f.write(f"商品链接:{self.url}")
             f.write(f"商品名称:{self.name}\n")
             f.write(f'商品规格:{self.specValues}\n')
             f.write(f"商品价格:{self.amount}\n")
             f.write(f'商品真实库存:{self.Storage}\n')
+            f.write('\n')
 
 
 
