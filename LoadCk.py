@@ -20,9 +20,9 @@ with open('headers2.yaml', 'r')as f:
 
 def LoadCk():
     info=GetQrCode()
-    if not info ==None
-    print('登陆成功！')
-    return info
+    if not info ==None:
+        print('登陆成功！')
+        return info
 
 
 
