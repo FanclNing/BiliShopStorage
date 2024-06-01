@@ -115,7 +115,7 @@ class Inquire:
             self.GetStorageInfo(n-1)
             self.PrintValues(res.text)
             print(f"--------------------No:{n}-END-------------------------")
-        a=input("(输入f退出)请输入任意网址继续....")
+        a=input("(输入f退出)请输入任意网址继续....\n")
         if a=="f":
             return None
         else:
