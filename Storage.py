@@ -162,7 +162,7 @@ class Inquire:
         with open(f'history\\{self.time.tm_year}-{self.time.tm_mon}-{self.time.tm_mday}查询历史.txt', 'a') as f:
 
             f.write(f"{self.time.tm_hour}：{self.time.tm_min}查询状态\n")
-            f.write(f"商品链接:{self.url}")
+            f.write(f"商品链接:{self.url}\n")
             f.write(f"商品名称:{self.name}\n")
             f.write(f'商品规格:{self.specValues}\n')
             f.write(f"商品价格:{self.amount}\n")
